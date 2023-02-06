@@ -1,13 +1,16 @@
 <style>
 	
 	.mid {
-	text-align: center;
+		text-align: center;
 		}
 	.large {
-	font-size: 60px;
+		font-size: 60px;
 		}
+	.slarge {
+		font-size: 45px;
+	}
 	.medium {
-	font-size: 30px;
+		font-size: 30px;
 		}
 	.small {
 	font-size: 15px;
