@@ -1,22 +1,18 @@
-<style>
- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	.mid {
-		text-align: center;
-		}
-	.large {
-		font-size: 60px;
-		}
-	.slarge {
-		font-size: 45px;
+.mid {
+	text-align: center;
 	}
-	.medium {
-		font-size: 30px;
-		}
-	.small {
-	font-size: 15px;
-		}
-	.bottom {
-		vertical-align: text-bottom;
-		}
-	
-</style>
+.large {
+	font-size: 60px;
+	}
+.slarge {
+	font-size: 45px;
+}
+.medium {
+	font-size: 30px;
+	}
+.small {
+font-size: 15px;
+	}
+.bottom {
+	vertical-align: text-bottom;
+	}
