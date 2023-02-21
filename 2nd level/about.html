@@ -28,7 +28,7 @@
 			  </div>
 			</div>
 			<a class="active" href="#">About</a>
-			<a href="../Script.js" class="icon" onclick="myFunction()">&#9776;</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 		  </div>
         <div class="medium">
             We are Legal Fortune, an emerging legal service website to provide law related content to both students and professionals.<br>
@@ -36,5 +36,15 @@
 		<div class="small" style="vertical-align: text-bottom">
 			Copyright &#169; Legal Fortune 2023
 		</div>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+			</script>
 	</body>
 </html>
