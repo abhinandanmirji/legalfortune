@@ -1,0 +1,55 @@
+<table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>0</td>
+                <td>#</td>
+            </tr>
+ </table>
+
+ 	There lived a handsome man in the depths of the forest. All the animals said he was smart and wise. <br> 
+			He used to sing a song, it was:<br>
+			what is the cost of happinesss you speak of?<br>
+			it is the only thing I dream of.<br>
+			Kings on the throne,<br>
+			old lying prone,<br>
+			only want that thing,<br>
+			it is for what I sing.
+
+
+            <div class="medium">
+				<table>
+					<tr>
+						<td><a href="2nd level/Constitutional Law/homecl.html">Constitutional Law</a></td>
+					</tr>
+					<tr>
+						<td><a href="2nd level/Law of torts/homeLOT.html">Law of Torts</a></td>
+					</tr>
+					<tr>
+						<td><a href="2nd level/IPC/homeIPC.html">Indian Penal Code</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Item four</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Item five</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Item six</a></td>
+					</tr>
+		 </table>
+		</div>

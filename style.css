@@ -147,6 +147,29 @@ text-align: center;
 	text-decoration: none;
 	color: #421919;
 }
+.Login {
+	height: 98%;
+	width: 99%;
+	background-color: black;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,00.4)),url(Images/login.jpg);	
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.log-box {
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+}
+.botton-box {
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #cb2a2a85;
+}
 
 
 

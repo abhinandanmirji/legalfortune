@@ -5,13 +5,13 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="../../style.css" rel="stylesheet">
         	<title>Legal Fortune</title>
+			<link rel="icon" type="Image/x-icon" href="../../Images/Icon.ico">
 	</head>
 	<body>
 		<div class="aligned">
 			<img src="../../Images/Logo1.1.png"
 			width="400" 
      		height="100" />
-			 <span>Indian Penal Code</span>
 		</div>
 		<div class="topnav" id="myTopnav">
 			<a href="../../index.html">Home</a>
@@ -27,14 +27,24 @@
 			  </div>
 			</div>
 			<a href="../about.html">About</a>
-			<a href="../../Script.js" class="icon" onclick="myFunction()">&#9776;</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 		  </div>
-		  <div class="slarge">
-			Add a thing that is unspecified or unknown
+		  <div class="large">
+			 Indian Penal Code
 		  </div>
 		<div class="small" style="vertical-align: text-bottom">
 			Copyright &#169; Legal Fortune 2023
 		</div>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+			</script>
 	</body>
 </html>
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="style.css" rel="stylesheet">
+        	<title>Legal Fortune</title>
+			<link rel="icon" type="Image/x-icon" href="Images/Icon.ico">
+	</head>
+	<body>
+		<div class="Login">
+            <div class="log-box">
+                <div>
+                    <input type="text" name="" placeholder="Enter Username" id="username">
+                    <input type="password" name="" placeholder="Enter Password" id="password">
+                    <input type="submit" name="" value="Login" onclick="validate()">
+                </div>
+
+            </div>
+
+        </div>
+        <script>
+            function validate()
+            {
+            var username=document.getElementsById("username").value;
+            var password=document.getElementsById("password").value;
+            if(username=="admin"&& password=="admin")
+            {
+            alert("login succesfully");
+            return false;
+            }
+            else{
+            alert("Login failed");
+            }
+            }
+        </script>
+	</body>
+</html>
