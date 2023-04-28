@@ -39,22 +39,6 @@ font-size: 15px;
 	padding-right: 200px;
 	padding-top: 50px;
 }
-@media only screen and (max-width: 600px) {
-	.Content {
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-	.Blogtitle {
-		font-size:20px;
-	}
-	.medium {
-		font-size: 15px;
-		text-decoration: none;
-		color: rgb(52, 51, 51);
-		outline: none;
-		}
-
-}
 .subtitle {
 	font-size: 38px;
 	color: rgb(244, 204, 28);
@@ -67,6 +51,34 @@ font-size: 15px;
 	padding-top: 20px;
 	padding-bottom: 7px;
 }
+@media only screen and (max-width: 600px) {
+	.Content {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 15px;
+	}
+	.Blogtitle {
+		font-size:25px;
+	}
+	.medium {
+		font-size: 15px;
+		text-decoration: none;
+		color: rgb(52, 51, 51);
+		outline: none;
+	}
+	.subtitle {
+		font-size: 23px;
+		padding-top: 25px;
+		padding-bottom: 9px;
+	}
+	.subtitle2 {
+		font-size: 20px;
+		padding-top: 20px;
+		padding-bottom: 7px;
+	}
+
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
 	background-color: #5377ef;
