@@ -44,6 +44,16 @@ font-size: 15px;
 		padding-left: 5px;
 		padding-right: 5px;
 	}
+	.Blogtitle {
+		font-size:30px;
+	}
+	.medium {
+		font-size: 20px;
+		text-decoration: none;
+		color: rgb(52, 51, 51);
+		outline: none;
+		}
+
 }
 .subtitle {
 	font-size: 38px;
